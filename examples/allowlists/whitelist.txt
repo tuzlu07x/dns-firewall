@@ -1,0 +1,4 @@
+# Whitelist example
+# Add domains that should never be blocked
+example.com
+trusted-domain.org
