@@ -1,6 +1,6 @@
 {
   "name": "dns-firewall",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A DNS proxy firewall with domain blocking, caching, DoH support, and YAML-based configuration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
