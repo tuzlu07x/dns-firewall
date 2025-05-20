@@ -15,16 +15,13 @@ upstreams:
     default:
       - 8.8.8.8
       - 1.1.1.1
-      # DNS over HTTPS example
       - https://dns.google/dns-query
     kids:
-      - 1.1.1.3 # Cloudflare family filter
+      - 1.1.1.3
       - 8.8.8.8
   timeout: 5000
 
-# Blocking configuration
-blocking:
-  enabled: true
+  # Blocking configuration
   denylists:
     ads:
       - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -44,4 +41,5 @@ blocking:
 logging:
   level: info
   queryLog: true
-  file: ./logs/dns-queries.log
+  file: ./logs/server.log
+  format: json
