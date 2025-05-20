@@ -83,9 +83,9 @@ blocking:
   enabled: true
   denylists:
     ads:
-      - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+      - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts # I did not activate Allowlist if you want to use it, please uncomment the line below
     malware:
-      - https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt
+      - https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt # I did not activate Allowlist if you want to use it, please uncomment the line below
   allowlists:
     whitelist:
       - ./allowlists/whitelist.txt
